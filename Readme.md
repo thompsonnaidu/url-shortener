@@ -42,19 +42,19 @@ The following libraries and technologies are utilized in this application:
 
 ## Environment Variables
 
-| Variable Name                 | Description                                          | Default Value                   |
+| Variable Name                 | Description                                          | Default Value or Sample                   |
 |-------------------------------|------------------------------------------------------|---------------------------------|
-| `SERVER_PORT`                 | The port on which the application will run.         | Not specified                   |
+| `SERVER_PORT`                 | The port on which the application will run.         | `8081`                           |
 | `ZOOKEEPER_HOST`              | The hostname of the ZooKeeper server.               | `localhost:2181`                |
-| `REDIS_HOST`                  | The hostname of the Redis server.                   | Not specified                   |
-| `REDIS_PORT`                  | The port on which the Redis server is running.      | Not specified                   |
-| `ZOOKEEPER_COUNTER_PATH`      | The path for the counter range in ZooKeeper.        | Not specified                   |
+| `REDIS_HOST`                  | The hostname of the Redis server.                   | `localhost`                 |
+| `REDIS_PORT`                  | The port on which the Redis server is running.      | `6379`                 |
+| `ZOOKEEPER_COUNTER_PATH`      | The path for the counter range in ZooKeeper.        | `url-shortner/counter-range`                   |
 | `RANGE_SIZE`                  | The difference in counter range for URL shortening.  | `1000`                          |
 | `DB_URL`                      | The JDBC URL for connecting to the database.        | `jdbc:h2:mem:testdb`           |
 | `DB_DRIVER`                   | The class name of the database driver.              | `org.h2.Driver`                 |
-| `DB_USERNAME`                 | The username for connecting to the database.        | Not specified                   |
-| `DB_PASSWORD`                 | The password for connecting to the database.        | Not specified                   |
-| `DB_PLATFORM`                 | The platform for the JPA database.                  | Not specified                   |
+| `DB_USERNAME`                 | The username for connecting to the database.        | `root`                   |
+| `DB_PASSWORD`                 | The password for connecting to the database.        | `password`                  |
+| `DB_PLATFORM`                 | The platform for the JPA database.                  | ``                   |
 
 ## Notes
 
